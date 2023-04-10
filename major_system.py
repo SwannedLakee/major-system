@@ -118,7 +118,7 @@ def main():
     pe = ParserEncoder(pronouncer = pronouncer, evaluator = NgramEvaluator(2))
     ste = SentenceTaggerEncoder(pronouncer = pronouncer)
     print('Models initialized.')
-    for number in ['123456789', '0987654321', '3141592653',
+    for number in ['89', '45', '090',
         '31415926535897932384626433832795028841971693993751']:
         print()
         for encoder in [rge, uge, nce, npce, pe, ste]:
