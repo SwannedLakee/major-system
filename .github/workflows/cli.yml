@@ -1,0 +1,17 @@
+name: Python
+
+on:
+  push:
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+
+      - name: Install libs
+        run: pip install nltk numpy
+
+      - name: Run script
+        run: python major_system.py
