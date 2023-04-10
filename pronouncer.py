@@ -5,6 +5,8 @@
 import codecs # for reading the CMU dictionary file
 from nltk.corpus import brown
 
+nltk.download('brown')
+
 class Pronouncer(object):
     '''
     Pronouncer knows how to pronounce words. It will even tell you how a word is pronounced,
