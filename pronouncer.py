@@ -3,8 +3,6 @@
 # This class uses the CMU Pronouncing Dictionary: http://www.speech.cs.cmu.edu/cgi-bin/cmudict
 
 import codecs # for reading the CMU dictionary file
-import nltk
-nltk.download('brown')
 from nltk.corpus import brown
 
 
