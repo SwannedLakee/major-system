@@ -12,6 +12,9 @@ jobs:
 
       - name: Install libs
         run: pip install nltk numpy
-
+      
+      - name: install nltk stuff
+        run: python -m nltk.downloader all
+        
       - name: Run script
         run: python major_system.py
